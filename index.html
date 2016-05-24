@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mediwork - Medicina laboral</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
+
+    <link rel="stylesheet" href="app.css">
+
+    <link rel="stylesheet" href="404/404.css">
+    <link rel="stylesheet" href="home/home.css">
+    <link rel="stylesheet" href="contact/contact.css">
+
+    <link rel="stylesheet" href="components/navbar/navbar.css">
+    <link rel="stylesheet" href="components/jumbotron/jumbotron.css">
+    <link rel="stylesheet" href="components/footer/footer.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<navbar></navbar>
+
+<jumbotron></jumbotron>
+
+<div ng-view></div>
+
+<footer></footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-resource.js"></script>
+
+<script src="app.js"></script>
+
+<script src="404/404.js"></script>
+<script src="components/jumbotron/jumbotron.js"></script>
+<script src="components/navbar/navbar.js"></script>
+<script src="components/footer/footer.js"></script>
+<script src="components/contact-form/contact-form.js"></script>
+<script src="components/newsletter-form/newsletter-form.js"></script>
+
+<!-- sections -->
+<script src="home/home.js"></script>
+<script src="contact/contact.js"></script>
+
+</body>
+</html>

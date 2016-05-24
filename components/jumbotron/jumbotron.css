@@ -1,0 +1,19 @@
+.jumbotron {
+    text-align: center;
+    background-image: url("../../assets/images/01.jpg");
+    background-position: center center;
+    padding: 0;
+}
+.jumbotron-overlay {
+    background-color: rgba(244, 67, 54, .5);
+    padding: 70px 0 30px;
+}
+.jumbotron h1,
+.jumbotron p {
+    color: #FFF
+}
+@media screen and (min-width: 768px) {
+    .jumbotron-overlay {
+        padding-top: 80px;
+    }
+}

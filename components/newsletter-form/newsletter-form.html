@@ -1,0 +1,12 @@
+<form name="newsLetterform" novalidate ng-submit="submitNewsletterForm()">
+    <div class="alert alert-success" role="alert" ng-show="newsLetterform.$submitted">¡Se ha suscripto exitosamente!</div>
+    <div class="form-group" ng-class="{'has-error has-feedback': newsLetterform.name.$touched && newsLetterform.name.$invalid}">
+        <input type="text" class="form-control input-sm" name="name" placeholder="Nombre" ng-model="subscriber.name" required>
+        <span ng-show="newsLetterform.name.$touched && newsLetterform.name.$invalid" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+    </div>
+    <div class="form-group" ng-class="{'has-error has-feedback': newsLetterform.email.$touched && newsLetterform.email.$invalid}">
+        <input type="email" class="form-control input-sm" name="email" placeholder="Email" ng-model="subscriber.email" required>
+        <span ng-show="newsLetterform.email.$touched && newsLetterform.email.$invalid" class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm" ng-disabled="newsLetterform.$invalid">Suscribir</button>
+</form>

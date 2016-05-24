@@ -1,0 +1,90 @@
+/* Extra small devices (phones, less than 768px) */
+/* General */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #424242;
+}
+a,
+a:hover,
+a:focus,
+a:active
+{
+    color: #F44336;
+}
+/* Titles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+.colored {
+    color: #F44336;
+}
+.bordered {
+    border-bottom: double #E0E0E0;
+    padding-bottom: 5px;
+}
+.light {
+    font-weight: 300;
+}
+/* Icons */
+.icon-list {
+    padding: 0;
+}
+.icon-list li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+.icon-list li i {
+    margin-right: 10px;
+}
+/* Buttons */
+.btn {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.btn .fa {
+    margin-right: 5px;
+}
+.btn-lg {
+    font-size: 16px;
+}
+.btn-sm {
+    font-size: 10px;
+}
+.btn-xs {
+    font-size: 10px;
+}
+.btn-color {
+    color: #FFFFFF;
+    background-color: #F44336;
+    border-color: #F44336;
+    border-bottom: solid 3px #C62828;
+}
+.btn-color:hover,
+.btn-color:active,
+.btn-color:focus {
+    background-color: #EF5350;
+    border-color: #EF5350;
+    color: #FFFFFF;
+}
+.btn-color-out {
+    color: #F44336;
+    border-color: #F44336;
+    background-color: transparent;
+}
+.btn-color-out:hover,
+.btn-color-out:active,
+.btn-color-out:focus {
+    background-color: #F44336;
+    border-color: #F44336;
+    color: #FFFFFF;
+}
+/* Alerts */
+.alert {
+    margin-bottom: 10px;
+}

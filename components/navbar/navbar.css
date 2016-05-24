@@ -1,0 +1,68 @@
+/* Navbar */
+.navbar-light {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+    background-color: #F44336;
+}
+.navbar-light .navbar-collapse {
+    border-color: #EF9A9A;
+}
+.navbar-light .navbar-brand, {
+    font-weight: 700;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:active,
+.navbar-light .navbar-nav > li > a,
+.navbar-light .navbar-nav > li > a:hover,
+.navbar-light .navbar-nav > li > a:focus,
+.navbar-light .navbar-nav > li > a:active {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav > li > a {
+    font-size: 12px;
+}
+.navbar-light .navbar-nav > li.access,
+.navbar-light .navbar-nav > li.active > a {
+    font-weight: 700;
+}
+.navbar-light .navbar-toggle {
+    border-color: #EF9A9A;
+    border-radius: 0;
+}
+.navbar-light .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+    .navbar-light {
+        background-color: transparent;
+        border: none;
+        border-bottom: solid 1px #FFFFFF;
+        border-radius: 0;
+    }
+    .navbar-light .navbar-nav > li > a {
+        padding: 15px 12px;
+    }
+    .navbar-light .navbar-brand,
+    .navbar-light .navbar-brand:focus,
+    .navbar-light .navbar-brand:hover,
+    .navbar-light .navbar-brand:active,
+    .navbar-light .navbar-nav > li > a,
+    .navbar-light .navbar-nav > li > a:hover,
+    .navbar-light .navbar-nav > li > a:focus,
+    .navbar-light .navbar-nav > li > a:active {
+        background-color: transparent;
+    }
+    .navbar-light .navbar-nav > li.active > a {
+        padding-top: 15px;
+        padding-bottom: 12px;
+        border-bottom: solid 3px #FFFFFF;
+    }
+}
